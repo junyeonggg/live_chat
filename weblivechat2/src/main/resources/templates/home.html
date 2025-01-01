@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<script th:src="@{js/main.js}"></script>
+<title>홈</title>
+</head>
+<body>
+	<input type="button" onclick="enter()" value="입장">
+	<input type="button" onclick="exit()" value="퇴장">
+	<div id="divMsg"></div>
+	<div id="hidden" hidden="hidden">
+		<input type="text" id="inputMsg" placeholder="메시지를 입력해 주세요.">
+		<input type="button" onclick="sendMsg()" value="전송">
+	</div>
+</body>
+</html>

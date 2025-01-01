@@ -1,0 +1,13 @@
+package com.livechat2.webchat2;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Weblivechat2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Weblivechat2Application.class, args);
+	}
+
+}
